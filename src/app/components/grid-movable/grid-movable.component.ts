@@ -48,7 +48,7 @@ export class GridMovableComponent implements OnInit {
     this.gridApi = params.api;
     this.gridColumnApi = params.columnApi;
     // const dataValue = [{firstName: 'Ragavan', age: 31}, {firstName: 'Mike', age: 50}];
-    this.http.get('https://44893b89-d593-4131-9563-4f6faacaa7a1.mock.pstmn.io/projects')
+    this.http.get('https://yourmockurl/projects')
       .subscribe(data => {
           params.api.setRowData(data);
         }
