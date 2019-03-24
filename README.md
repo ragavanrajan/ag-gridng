@@ -1,3 +1,7 @@
+# Note: 
+
+To run this project in the app.component.ts file > Change the your mock url to actual mock endpoint or real endpoint. Applicable to grid-movable.component.ts as well. 
+
 # AgGridng
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
